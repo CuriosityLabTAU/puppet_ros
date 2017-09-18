@@ -38,7 +38,6 @@ class DxlROS(Thread):
                 if id not in self.chain.motors.keys():
                     raise Exception, "Cannot bind ROS name %s to non-existing motor ID %d" % (name, id)
 
-        #self.motors = [1,3]
         print self.motors
 
 
